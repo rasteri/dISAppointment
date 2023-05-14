@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -65,11 +65,11 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffcfdcf_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "testing.kicad_prl",
+    "filename": "disappointment.kicad_prl",
     "version": 3
   },
   "project": {
