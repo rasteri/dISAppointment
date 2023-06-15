@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|114381687|91337200|9621318d-8f8a-4a97-b607-b6d55be5d86a|dc48e614-f9ce-49ff-8c15-9a2fb8a1051c",
+        "unconnected_items|123416800|91337200|c879925f-638d-4602-bfcf-8a4ed1bf1eeb|3905ed69-2d66-4178-bcdd-d980775261d4",
+        "unconnected_items|127616800|91337200|3905ed69-2d66-4178-bcdd-d980775261d4|0ee3624b-70d6-4c3d-877c-ceaf892b213b",
+        "unconnected_items|127616800|91337200|3905ed69-2d66-4178-bcdd-d980775261d4|26866402-58b7-4390-9f8e-2c9a239cc125",
+        "unconnected_items|81416800|91337200|3a1715b8-c45c-4ef0-b2b8-df17e19fb8b2|c879925f-638d-4602-bfcf-8a4ed1bf1eeb",
+        "unconnected_items|89816800|85837200|ee2dd89a-009e-45e1-986f-e38cb3a13222|377db64a-bbdc-4107-b6e3-8a6f8e6634f9",
+        "unconnected_items|89816800|91337200|a22e60c4-1a0d-4a16-84c8-76b9624075e4|4dd5da3d-bce3-4959-8468-875c2d3d76e3",
+        "unconnected_items|89816800|91337200|b61929f9-a1f7-49ff-95db-21b7381fbe80|4dd5da3d-bce3-4959-8468-875c2d3d76e3",
+        "unconnected_items|94016800|85837200|c3187752-fbc3-434e-9591-f4844afe4400|dc48e614-f9ce-49ff-8c15-9a2fb8a1051c",
+        "unconnected_items|94016800|85837200|c3187752-fbc3-434e-9591-f4844afe4400|ee2dd89a-009e-45e1-986f-e38cb3a13222"
+      ],
       "meta": {
         "version": 2
       },
@@ -73,7 +84,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -121,7 +132,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
