@@ -26,3 +26,5 @@ fp-info-cache
 *.csv
 
 testing/testing-backups/
+
+hardware/disappointment-backups/
