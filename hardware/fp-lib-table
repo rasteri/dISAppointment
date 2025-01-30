@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "andy")(type "KiCad")(uri "${KIPRJMOD}/andy.pretty")(options "")(descr ""))
+  (lib (name "andy")(type "KiCad")(uri "${KIPRJMOD}/disappointment.pretty")(options "")(descr ""))
 )
